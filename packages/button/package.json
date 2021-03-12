@@ -1,0 +1,14 @@
+{
+  "name": "@nature-design/button",
+  "version": "0.1.0",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  }
+}

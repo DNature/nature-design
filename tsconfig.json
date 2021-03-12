@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "target": "es5",
+    "module": "CommonJS",
+    "lib": ["dom", "esnext"],
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationMap": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "removeComments": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "noEmit": false
+  },
+  "exclude": ["node_modules", "build"],
+  "include": ["packages", "*.config.js"]
+}
